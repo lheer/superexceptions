@@ -4,8 +4,6 @@
 
 Supercharged C++ exceptions with support for source location and formatted strings for pre-c++20, leveraging [fmt](https://github.com/fmtlib/fmt). Once you move to C++20, the external dependencies to *fmt* can be replaced by standard library headers.
 
-## How
-
 Instead of:
 
 ```cpp
@@ -28,3 +26,8 @@ Also supports embedding the source location from where the exception was thrown:
 ...
 throw lh::LocatedException(nostd::source_location::current(), "Expection: {:#x}", 42);
 ```
+
+
+## How
+
+This is a header-only library. Simply include the file [superexceptions.hpp](https://github.com/lheer/superexceptions/blob/main/include/lh/superexceptions.hpp) to your project and compile/link against [fmt](https://github.com/fmtlib/fmt).

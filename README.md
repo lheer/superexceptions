@@ -2,7 +2,7 @@
 
 ## What
 
-Supercharged C++ exceptions with support for source location and formatted strings for pre-c++20, leveraging [fmt](https://github.com/fmtlib/fmt). Once you move to C++20, the external dependencies to *fmt* can be replaced by standard library headers.
+Supercharged C++ exceptions with support for source location and formatted strings, leveraging [fmt](https://github.com/fmtlib/fmt). Once you move to C++20, the external dependencies to *fmt* can be replaced by standard library headers. Requires C++17.
 
 Instead of:
 

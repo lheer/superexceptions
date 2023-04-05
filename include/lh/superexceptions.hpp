@@ -2,6 +2,7 @@
 
 #include <exception>
 #include <string>
+#include <string_view>
 
 #include <fmt/core.h>
 
@@ -67,7 +68,7 @@ public:
     FormattedException() = default;
 
     template <typename... Args>
-    explicit FormattedException(const std::string &msg, const Args &...args) : m_msg(fmt::format(msg, args...))
+    explicit FormattedException(const std::string_view msg, const Args &...args) : m_msg(fmt::format(msg, args...))
     {
     }
 
@@ -87,7 +88,7 @@ public:
     LocationException() = default;
 
     template <typename... Args>
-    LocationException(const nostd::source_location &loc, const std::string &msg, const Args &...args)
+    LocationException(const nostd::source_location &loc, const std::string_view msg, const Args &...args)
         : m_msg(fmt::format("{}, in {}, line {}", loc.file_name(), loc.function_name(), loc.line()) + " - " +
                 fmt::format(msg, args...))
     {

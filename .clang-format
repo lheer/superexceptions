@@ -1,0 +1,18 @@
+﻿---
+BasedOnStyle: Microsoft
+AlwaysBreakTemplateDeclarations: 'Yes'
+BreakBeforeBraces: Allman
+FixNamespaceComments: 'true'
+IndentCaseLabels: 'true'
+IndentWidth: '4'
+MaxEmptyLinesToKeep: '2'
+NamespaceIndentation: Inner
+PenaltyBreakTemplateDeclaration: '0'
+SortIncludes: 'false'
+SpaceBeforeRangeBasedForLoopColon: 'false'
+TabWidth: '4'
+UseTab: Never
+AccessModifierOffset: -4
+AlwaysBreakTemplateDeclarations: 'true'
+
+...

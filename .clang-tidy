@@ -1,0 +1,5 @@
+Checks: '*,-llvm-*,-llvmlibc-*,-fuchsia-default-arguments-*,-modernize-use-trailing-return-type,-altera-unroll-loops,
+  -cppcoreguidelines-non-private-member-variables-in-classes,-misc-non-private-member-variables-in-classes,-fuchsia-overloaded-operator,
+  -altera-id-dependent-backward-branch,-cppcoreguidelines-avoid-magic-numbers,-readability-magic-numbers,-modernize-avoid-bind,
+  -readability-avoid-const-params-in-decls,-google-readability-todo'
+InheritParentConfig: false

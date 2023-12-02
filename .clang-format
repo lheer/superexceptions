@@ -1,6 +1,5 @@
 ﻿---
 BasedOnStyle: Microsoft
-AlwaysBreakTemplateDeclarations: 'Yes'
 BreakBeforeBraces: Allman
 FixNamespaceComments: 'true'
 IndentCaseLabels: 'true'
